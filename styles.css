@@ -20,13 +20,16 @@ main {
 
 #form {
     text-align: center;
-    width: 40rem;
     background-color: rgb(242, 231, 190);
+    transform: translateY(10%);
+    margin: auto 1.5rem;
 }
 
 fieldset {
+    border: none;
     height: 100%;
     padding: 1.5rem;
+    margin: 1rem 2rem;
 }
 
 label {
@@ -35,10 +38,12 @@ label {
 
 input {
     display: block;
-    margin: auto;
-    height: 2rem;
-    width: 100%;
-    margin-top: 1rem;
+    font-size: 2.5rem;
+    height: 3.6rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    line-height: 1.4;
+    color: white;
 }
 
 button {
