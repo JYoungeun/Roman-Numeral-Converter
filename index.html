@@ -14,15 +14,15 @@
         <div>
             <h1 class="header">Roman Numeral Converter</h1>
         </div>
-        <form id="form">
+        <form id="form" class="form">
             <fieldset>
-                <label>Enter a Number:</label>
-                <input id="number" required />
-                <button id="convert-btn">Convert</button>
+              <label for="number">Enter a Number:</label><br />
+              <input type="number" id="number" value="value must appear" autocomplete="off" required />
+              <button type="button" id="convert-btn">Convert</button>
             </fieldset>
-        </form>
-        <div id="output"></div>
-    </main>
+          </form>
+          <div id="output" class="output hidden"></div>
+        </main>
     <script src="script.js"></script>
 </body>
 </html>
